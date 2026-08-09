@@ -1,3 +1,5 @@
+// wap to to swap variables using function with pointer logic
+
 #include <stdio.h>
 int swap(int *a,int *b);
 int main()
