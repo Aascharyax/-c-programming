@@ -1,22 +1,20 @@
-#include <stdio.h>
-int calculatearea(int r);
-int calculatecircum(int r);
+#include<stdio.h>
+int calcarea(int r);
+int calccirc(int r);
 int main()
 {
-    int radius,circumference,area;
-    printf("enter the radius:");
+    int radius,area,circumference;
+    printf("enter the radius");
     scanf("%d",&radius);
-    area=calculatearea(radius);
-    circumference=calculatecircum(radius);
-    printf("The area of circle is %d",area);
-    printf("the circ of a circle %d",circumference);
+    area = intcalcarea(radius);
+    circumference= intcalcirc(radius);
     return 0;
+    
 }
-int calculatearea(int r)
-{
-    return(3.14159*r*r);
+int calcarea(int r){
+    return(3.14*r*r);
 }
-int calculatecircum(int r)
-{
-    return(2*3.14159*r);
+int calcirc(int r)
+{ 
+    return(2*3.14*r);
 }
