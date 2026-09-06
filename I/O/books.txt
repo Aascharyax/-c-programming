@@ -1,0 +1,12 @@
+ Book id:1
+,book name:maths:
+,author:euler:
+,price:$100:
+ Book id:2
+,book name:physics:
+,author:newton:
+,price:$199:
+ Book id:3
+,book name:chemistry:
+,author:lucas:
+,price:$101:
